@@ -1,4 +1,5 @@
 #! /bin/bash
+# load .Xresorces when start X
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
 # fcitx settings
@@ -7,5 +8,5 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIRES=@im=fcitx
 
-# exec i3 when start X11
+# exec i3 when start X
 exec i3

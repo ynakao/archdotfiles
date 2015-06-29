@@ -1,6 +1,9 @@
+# font settings
 URxvt.font: xft:SourceHanCodeJP-Normal:size=11
 URxvt.letterSpace: -1
 
+# <rxvt-unicode terminal emulator solarized color theme>
+# https://github.com/altercation/solarized/blob/master/xresources/solarized
 #define S_base03        #002b36
 #define S_base02        #073642
 #define S_base01        #586e75
@@ -57,3 +60,4 @@ URxvt*color14:               S_base1
 !! white dark/light
 URxvt*color7:                S_base2
 URxvt*color15:               S_base3
+# </rxvt-unicode terminal emulator solarized color theme>
