@@ -1,6 +1,6 @@
 ! font settings
-URxvt.font: xft:SourceHanCodeJP-Normal:size=11
-URxvt.letterSpace: -1
+URxvt.font: xft:Inconsolata for Powerline:size=13
+URxvt.letterSpace: 0
 
 ! <rxvt-unicode terminal emulator solarized color theme>
 ! https://github.com/altercation/solarized/blob/master/xresources/solarized
