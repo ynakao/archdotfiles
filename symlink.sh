@@ -4,3 +4,4 @@ ln -sf ~/dotfiles/.xinitrc ~/.xinitrc
 ln -sf ~/dotfiles/.Xresources ~/.Xresources
 ln -sf ~/dotfiles/config.fish ~/.config/fish/config.fish
 ln -sf ~/dotfiles/.nvimrc ~/.config/nvim/init.vim
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
