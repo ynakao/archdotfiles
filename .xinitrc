@@ -10,3 +10,6 @@ export XMODIFIRES=@im=fcitx
 
 # exec i3 when start X
 exec i3
+
+# Disable beep in X
+xset -b
