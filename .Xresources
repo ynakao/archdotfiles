@@ -1,5 +1,6 @@
 ! font settings
-URxvt.font: xft:Inconsolata for Powerline:size=13
+! URxvt.font: xft:Inconsolata for Powerline:size=13
+URxvt*font: xft:Inconsolata for Powerline:size=13,xft:Symbola:size=13
 URxvt.letterSpace: 0
 
 ! <rxvt-unicode terminal emulator solarized color theme>
