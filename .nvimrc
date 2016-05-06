@@ -19,6 +19,7 @@ Plug 'Shougo/deoplete.nvim'
 Plug 'phildawes/racer', { 'do': 'cargo build --release' }
 Plug 'rust-lang/rust.vim'
 Plug 'fatih/vim-go'
+Plug 'racer-rust/vim-racer'
 
 call plug#end()
 
@@ -26,8 +27,8 @@ call plug#end()
 let g:deoplete#enable_at_startup = 1
 
 "set hidden
-let g:racer_cmd = "~/.nvim/plugged/racer/target/release/racer"
-let $RUST_SRC_PATH="/home/ugarch/src/rust/src"
+let g:racer_cmd = "~/.config/nvim/plugged/racer/target/release/racer"
+let $RUST_SRC_PATH="/home/archmba/Downloads/repo/rust/src"
 
 " let g:deoplete#omni_patterns.go = '\h\w\.\w*'
 
