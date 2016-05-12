@@ -1,5 +1,7 @@
 ! font settings
 ! URxvt.font: xft:Inconsolata for Powerline:size=13
+! https://www.reddit.com/r/archlinux/comments/3pk3jt/slug/cw70aye
+! URxvt*font: xft: Liberation Mono:pixelsize=14,xft: DejaVu Sans Mono,xft: Symbola:size=5,xft: Unifont
 URxvt*font: xft:Inconsolata for Powerline:size=13,xft:Symbola:size=13
 URxvt.letterSpace: 0
 
