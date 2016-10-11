@@ -26,9 +26,9 @@ call plug#end()
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
 
-"set hidden
-let g:racer_cmd = "~/.config/nvim/plugged/racer/target/release/racer"
-let $RUST_SRC_PATH="/home/archmba/Downloads/repo/rust/src"
+set hidden
+let g:racer_cmd = "/usr/bin/racer"
+let $RUST_SRC_PATH="/home/archmba/.multirust/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src"
 
 " let g:deoplete#omni_patterns.go = '\h\w\.\w*'
 
