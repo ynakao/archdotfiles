@@ -28,7 +28,7 @@ let g:deoplete#enable_at_startup = 1
 
 set hidden
 let g:racer_cmd = "/usr/bin/racer"
-let $RUST_SRC_PATH="/home/archmba/.multirust/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src"
+let $RUST_SRC_PATH= $HOME . "/.multirust/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src"
 
 " let g:deoplete#omni_patterns.go = '\h\w\.\w*'
 
