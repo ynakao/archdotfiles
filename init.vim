@@ -16,7 +16,7 @@ inoremap <silent><expr> <Tab>
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'Shougo/deoplete.nvim'
-Plug 'phildawes/racer', { 'do': 'cargo build --release' }
+" Plug 'phildawes/racer', { 'do': 'cargo build --release' }
 Plug 'rust-lang/rust.vim'
 Plug 'fatih/vim-go'
 Plug 'racer-rust/vim-racer'
