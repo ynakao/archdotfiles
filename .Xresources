@@ -6,6 +6,10 @@
 URxvt.font: xft:Ricty-Regular:size=13,xft:Symbola:size=13
 URxvt.letterSpace: 0
 
+URxvt.perl-ext-common: default,xim-onthespot,
+URxvt.inputMethod: fcitx
+URxvt.preeditType: OnTheSpot
+
 ! <rxvt-unicode terminal emulator solarized color theme>
 ! https://github.com/altercation/solarized/blob/master/xresources/solarized
 #define S_base03        #002b36
