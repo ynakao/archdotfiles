@@ -1,6 +1,8 @@
 #! /bin/bash
 # load .Xresorces when start X
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+# load .Xmodmap
+[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 
 # fcitx settings
 export DefaultImModule=fcitx
