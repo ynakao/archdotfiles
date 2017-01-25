@@ -1,5 +1,5 @@
 #!/bin/bash
-ln -sf ~/dotfiles/config ~/.config/i3/config
+ln -sf ~/dotfiles/i3config ~/.config/i3/config
 ln -sf ~/dotfiles/.xinitrc ~/.xinitrc
 ln -sf ~/dotfiles/.Xresources ~/.Xresources
 ln -sf ~/dotfiles/.Xmodmap ~/.Xmodmap
