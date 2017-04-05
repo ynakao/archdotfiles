@@ -173,3 +173,6 @@ bindsym XF86AudioMute exec amixer set Master toggle
 # https://github.com/haikarainen/light
 bindsym $mod+F1 exec light -U 1
 bindsym $mod+F2 exec light -A 1
+
+# load .Xresources
+exec xrdb ~/.Xresources
