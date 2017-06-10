@@ -176,3 +176,5 @@ bindsym $mod+F2 exec light -A 1
 
 # load .Xresources
 exec xrdb ~/.Xresources
+
+for_window [class="mpv"] floating enable
