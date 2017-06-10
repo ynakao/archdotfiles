@@ -10,8 +10,11 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIRES=@im=fcitx
 
-# exec i3 when start X
-exec i3
+# If only left control pressed, remap Esc.
+xcape -e 'Control_L=Escape'
 
 # Disable beep in X
 xset -b
+
+# exec i3 when start X
+exec i3
