@@ -159,6 +159,7 @@ bar {
         # cd ~/repo
         # git clone https://github.com/i3/i3status.git
         status_command exec ~/repo/i3status/contrib/net-speed.sh
+        position top
 }
 
 # exec fcitx when start i3
