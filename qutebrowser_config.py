@@ -41,7 +41,7 @@ config.bind('<Ctrl-Q>', 'quit --save', mode='normal')
 config.bind('ZQ', 'quit --save', mode='normal')
 
 # destruct cookies when quitting qutebrowser
-c.content.cookies.store = False
+# c.content.cookies.store = False
 
 # change color scheme
 # css = '~/repo/solarized-everything-css/css/solarized-all-sites-dark.css'
