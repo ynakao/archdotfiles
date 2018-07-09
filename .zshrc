@@ -1,7 +1,7 @@
 #------------------------------
-# Reference 
+# Reference
 # https://wiki.archlinux.org/index.php/Zsh
-# https://github.com/MrElendig/dotfiles-alice/blob/master/.zshrc 
+# https://github.com/MrElendig/dotfiles-alice/blob/master/.zshrc
 #------------------------------
 
 #------------------------------
@@ -132,7 +132,7 @@ zstyle ':vcs_info:git*' formats "%{${fg[cyan]}%}[%{${fg[green]}%}%s%{${fg[cyan]}
 setprompt() {
   setopt prompt_subst
 
-  if [[ -n "$SSH_CLIENT"  ||  -n "$SSH2_CLIENT" ]]; then 
+  if [[ -n "$SSH_CLIENT"  ||  -n "$SSH2_CLIENT" ]]; then
     p_host='%F{yellow}%M%f'
   else
     p_host='%F{green}%M%f'
