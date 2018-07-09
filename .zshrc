@@ -165,6 +165,9 @@ source /usr/share/fzf/completion.zsh
 # load private settings
 test -f ~/.zshrc.priv && source ~/.zshrc.priv
 
+# keychain
+eval $(keychain --eval --quiet --noask id_rsa)
+
 # Google translate
 d () {
     trans -d $1 | less -R
