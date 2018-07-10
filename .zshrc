@@ -158,6 +158,12 @@ setprompt
 #------------------------------
 # misc
 #------------------------------
+# Xorg settings
+setxkbmap -option ctrl:nocaps
+xcape -e 'Control_L=Escape' -t 175
+# Disable beep in X
+xset -b
+
 # load fzf
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /usr/share/fzf/key-bindings.zsh
