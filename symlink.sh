@@ -11,3 +11,4 @@ ln -sf ~/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/qutebrowser_config.py ~/.config/qutebrowser/config.py
 ln -sf ~/dotfiles/ranger/rc.conf ~/.config/ranger/rc.conf
 ln -sf ~/dotfiles/ranger/rifle.conf ~/.config/ranger/rifle.conf
+ln -sf ~/dotfiles/mpv.conf ~/.config/mpv/mpv.conf
