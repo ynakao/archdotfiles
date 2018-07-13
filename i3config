@@ -180,3 +180,5 @@ bindsym $mod+F2 exec light -A 1
 exec xrdb ~/.Xresources
 
 for_window [class="mpv"] floating enable
+
+focus_follows_mouse no
