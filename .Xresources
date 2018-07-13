@@ -6,6 +6,8 @@
 URxvt.font: xft:Ricty-Regular:size=12,xft:Symbola:size=12
 URxvt.letterSpace: -1
 
+URxvt.scrollBar: false
+
 URxvt.perl-ext-common: default,xim-onthespot,
 URxvt.inputMethod: fcitx
 URxvt.preeditType: OnTheSpot
