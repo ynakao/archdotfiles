@@ -31,7 +31,7 @@ c.tabs.select_on_remove = 'last-used'
 c.tabs.show = 'switching'
 
 # editor settings
-# c.editor.command = ["/usr/local/bin/gvim", "-f", "{}"]
+c.editor.command = ["/usr/bin/gvim", "-f", "{}"]
 
 # prevent accidental quit
 c.auto_save.session = True
