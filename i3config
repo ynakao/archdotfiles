@@ -180,5 +180,10 @@ bindsym $mod+F2 exec light -A 1
 exec xrdb ~/.Xresources
 
 for_window [class="mpv"] floating enable
+for_window [class="Gvim"] floating enable
 
 focus_follows_mouse no
+
+bindsym $mod+q [class="qutebrowser"] focus
+bindsym $mod+m [class="Emacs"] focus
+bindsym $mod+i [class="mpv"] focus
