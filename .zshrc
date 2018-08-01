@@ -64,6 +64,7 @@ alias ll="ls -hl"
 alias la="ls -aF"
 alias ta="tmux attach"
 alias i3lock='i3lock -c 000000'
+alias s="source ~/.zshrc"
 
 #------------------------------
 # ShellFuncs
