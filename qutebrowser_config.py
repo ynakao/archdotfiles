@@ -59,3 +59,8 @@ c.fonts.messages.warning = '12pt monospace'
 c.fonts.prompts = '12pt monospace'
 c.fonts.statusbar = '12pt monospace'
 c.fonts.tabs = '12pt monospace'
+
+# key bindings
+config.bind('J', 'tab-prev')
+config.bind('K', 'tab-next')
+config.unbind('M', mode='normal')
