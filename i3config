@@ -178,6 +178,8 @@ bar {
 
 # exec fcitx when start i3
 exec --no-startup-id fcitx
+# exec redshit
+exec --no-startup-id redshift-gtk
 
 # Keyboard volume control
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
