@@ -10,7 +10,7 @@ config = config  # noqa: F821 pylint: disable=E0602,C010
 config.load_autoconfig()
 
 # display scrollbar
-c.scrolling.bar = True
+c.scrolling.bar = 'always'
 
 # disable to show `qutebrowser` from window title
 c.window.title_format = '{title}'
