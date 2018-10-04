@@ -203,3 +203,7 @@ focus_follows_mouse no
 bindsym $mod+q [class="qutebrowser"] focus
 bindsym $mod+m [class="Emacs"] focus
 bindsym $mod+i [class="mpv"] focus
+bindsym $mod+x [class="Firefox"] focus
+bindsym $mod+t [title="tmux"] focus
+bindsym $mod+u [title="vuldeb"] focus
+bindsym $mod+b [title="archmba"] focus
