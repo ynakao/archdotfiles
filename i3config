@@ -197,6 +197,7 @@ exec xrdb ~/.Xresources
 
 for_window [class="mpv"] floating enable
 for_window [class="Gvim"] floating enable
+for_window [class="feh"] floating enable
 
 focus_follows_mouse no
 
