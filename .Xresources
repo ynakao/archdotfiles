@@ -8,7 +8,9 @@ URxvt.letterSpace: -1
 
 URxvt.scrollBar: false
 
-URxvt.perl-ext-common: default,xim-onthespot,
+! You need to install `urxvt-resize-font`.
+! https://wiki.archlinux.org/index.php/Rxvt-unicode#Changing_font_size_on_the_fly
+URxvt.perl-ext-common: default,xim-onthespot,resize-font,
 URxvt.inputMethod: fcitx
 URxvt.preeditType: OnTheSpot
 
